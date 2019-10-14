@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-keywords:
-author: John Doe
+title: 溪田
+subtitle: 上善若水。水利万物而不争，处众人之所恶，故几于道。居善地，心善渊，言善信，政善治，事善能，动善时。夫惟不争，故无尤。
+description: 天下难事必作于易，天下大事必作于细
+keywords: Java
+author: yehongwei
 language: en
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
+url: http://yehongwei.github.io/blog
+root: /blog
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -78,4 +78,5 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/yehongwei/blog.git
