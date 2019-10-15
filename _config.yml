@@ -8,7 +8,7 @@ subtitle: 上善若水。水利万物而不争，处众人之所恶，故几于�
 description: 天下难事必作于易，天下大事必作于细
 keywords: Java
 author: yehongwei
-language: en
+language: zh-CN
 timezone:
 
 # URL
@@ -73,10 +73,16 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
   repo: https://github.com/yehongwei/blog.git
+  
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000  
